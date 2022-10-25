@@ -1,0 +1,66 @@
+*{
+    background-size: 1440px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    width: 550px;
+    height: 350px;
+    box-shadow: 2px 4px 20px -6px rgba(0, 0, 0, 0.5);
+    border-radius: 10%
+}
+
+.product-image{
+    background-image: url(/images/image-product-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    flex: 50%;
+}
+.product-des{
+    flex: 50%;
+    padding: 20px;
+    text-align: left;
+    background-color: white;
+    color: rgb(53, 51, 51);
+}
+.product-des h4{
+    color:lightgray;
+    font-weight: 100;
+    font-size: 15px;
+}
+.product-des h3{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.product-des h5{
+    color: rgb(54, 154, 54);
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-des p{
+    font-size: 14px;
+}
+
+button{
+    border: none;
+    outline: none;
+    border-radius: 10%;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 100;
+    text-transform: capitalize;
+    letter-spacing: 0.2em;
+    background: rgb(54, 154, 54);
+    color: white;
+}
